@@ -25,10 +25,9 @@
 [submodule "support/uglify-js"]
 	path = support/uglify-js
 	url = git://github.com/ajaxorg/UglifyJS.git
-
 [submodule "support/jsdav"]
 	path = support/jsdav
-	url = git://github.com/jpka/jsDAV.git
+	url = git://github.com/ajaxorg/jsDAV.git
 [submodule "support/node-builds-v4"]
 	path = support/node-builds-v4
-	url = git://github.com/jpka/node-builds-v4.git
+	url = git://github.com/ajaxorg/node-builds-v4.git
