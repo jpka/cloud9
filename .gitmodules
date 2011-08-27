@@ -4,9 +4,6 @@
 [submodule "support/asyncjs"]
 	path = support/asyncjs
 	url = git://github.com/ajaxorg/async.js.git
-[submodule "support/jsdav"]
-	path = support/jsdav
-	url = git://github.com/jadonk/jsDAV.git
 [submodule "support/lib-v8debug"]
 	path = support/lib-v8debug
 	url = http://github.com/ajaxorg/lib-v8debug.git
@@ -16,9 +13,6 @@
 [submodule "support/apf"]
 	path = support/apf
 	url = http://github.com/ajaxorg/apf.git
-[submodule "support/node-builds-v4"]
-	path = support/node-builds-v4
-	url = http://github.com/jpka/node-builds-v4.git
 [submodule "support/gnu-builds"]
 	path = support/gnu-builds
 	url = git://github.com/ajaxorg/gnu-builds.git
@@ -31,3 +25,10 @@
 [submodule "support/uglify-js"]
 	path = support/uglify-js
 	url = git://github.com/ajaxorg/UglifyJS.git
+
+[submodule "support/jsdav"]
+	path = support/jsdav
+	url = git://github.com/jpka/jsDAV.git
+[submodule "support/node-builds-v4"]
+	path = support/node-builds-v4
+	url = git://github.com/jpka/node-builds-v4.git

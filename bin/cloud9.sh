@@ -9,18 +9,18 @@ if [ ! -e support/ace/LICENSE ]; then
 fi
 
 case `uname -a` in
-Linux*x86_64*)  echo "Linux 64 bit"   
+Linux*x86_64*)  echo "Linux 64 bit"
 	support/node-builds-v4/node-linux64 bin/cloud9.js "$@" -a x-www-browser
 	;;
 
-Linux*i686*)  echo "Linux 32 bit"   
+Linux*i686*)  echo "Linux 32 bit"
 	support/node-builds-v4/node-linux32 bin/cloud9.js "$@" -a x-www-browser
 	;;
 
 Linux*armv7*)  echo "Linux ARMv7"
-	support/node-builds-v4/node-arm bin/cloud9.js "$@" -a x-www-browser
+	support/node-builds-v4/node-armv7 bin/cloud9.js "$@"
 	;;
-    
+
 Darwin*)  echo  "OSX"
     support/node-builds-v4/node-darwin bin/cloud9.js "$@" -a open
     ;;
@@ -31,7 +31,7 @@ CYGWIN*)  echo  "Cygwin"
 
 MING*)  echo  "MingW"
     support/node-builds-v4/node-cygwin.exe bin/cloud9.js "$@" -a "cmd /c start"
-    ;;    
+    ;;
 
 SunOS*)  echo  "Solaris"
     support/node-builds-v4/node-sunos bin/cloud9.js "$@"
@@ -41,6 +41,4 @@ SunOS*)  echo  "Solaris"
 *) echo "Unknown OS"
    ;;
 esac
-
-
 
